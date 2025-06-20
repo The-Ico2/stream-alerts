@@ -1,0 +1,116 @@
+{
+  "platform": {
+    "type": "dropdown",
+    "label": "Platform",
+    "value": "YouTube",
+    "options": {
+      "YouTube": "YouTube",
+      "Twitch": "Twitch",
+      "Twitter": "Twitter",
+      "Kick": "Kick"
+    }
+  },
+  "widgetDuration": {
+    "type": "number",
+    "label": "Alert Duration (sec)",
+    "value": 4
+  },
+  "gradientTransparency": {
+    "type": "slider",
+    "label": "Gradient Transparency",
+    "value": 0.6,
+    "min": 0,
+    "max": 1,
+    "steps": 0.05
+  },
+  "fontFamily": {
+    "type": "googleFont",
+    "label": "Font family",
+    "value": "Archivo"
+  },
+  "fontSize": {
+    "type": "number",
+    "label": "Font Size (px)",
+    "value": 20
+  },
+  "includeFollowers": {
+    "type": "checkbox",
+    "label": "Include Followers (Twitch)",
+    "value": true
+  },
+  "includeSubs": {
+    "type": "checkbox",
+    "label": "Include Subs (ALL)",
+    "value": true
+  },
+  "includeCheers": {
+    "type": "checkbox",
+    "label": "Include Cheers (Twitch/Kick)",
+    "value": true
+  },
+  "includeHosts": {
+    "type": "checkbox",
+    "label": "Include Hosts (Twitch/Kick)",
+    "value": true
+  },
+  "includeRaids": {
+    "type": "checkbox",
+    "label": "Include Raids (Twitch/Kick)",
+    "value": true
+  },
+  "includeRedemptions": {
+    "type": "checkbox",
+    "label": "Include Redemptions (Twitch/Kick)",
+    "value": true
+  },
+  "includeTips": {
+    "type": "checkbox",
+    "label": "Include Tips (ALL)",
+    "value": true
+  },
+  "includeSuperchats": {
+    "type": "checkbox",
+    "label": "Include Superchats (YouTube)",
+    "value": true
+  },
+  "includeSponsors": {
+    "type": "checkbox",
+    "label": "Include Sponsors (YouTube)",
+    "value": true
+  },
+  "minCheer": {
+    "type": "number",
+    "label": "Min Bits (Twitch)",
+    "value": 1
+  },
+  "minTip": {
+    "type": "number",
+    "label": "Min Tip Amount",
+    "value": 1
+  },
+  "minHost": {
+    "type": "number",
+    "label": "Min Host Viewers",
+    "value": 1
+  },
+  "minRaid": {
+    "type": "number",
+    "label": "Min Raid Viewers",
+    "value": 1
+  },
+  "minSuperchat": {
+    "type": "number",
+    "label": "Min Superchat Amount",
+    "value": 1
+  },
+  "pRGB": {
+    "type": "colorpicker",
+    "label": "Primary Gradient Color",
+    "value": "#FF0000"
+  },
+  "sRGB": {
+    "type": "colorpicker",
+    "label": "Secondary Gradient Color",
+    "value": "#CC0000"
+  }
+}

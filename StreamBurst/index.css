@@ -1,0 +1,76 @@
+@import url('https://cdn.streamelements.com/scripts/animate.min.css');
+@import url('https://fonts.googleapis.com/css2?family={{fontFamily}}&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: {{fontFamily}};
+}
+
+.alert-wrapper {
+    position: absolute;
+    will-change: transform, opacity;
+}
+
+.alert-box {
+    position: relative;
+    /* ✨ Enables absolute positioning inside */
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 28px 14px 8px;
+    /* extra top padding for the chip */
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.4);
+    color: #fff;
+    user-select: none;
+}
+
+.alert-plat-chip {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 4px 10px;
+    font-size: 0.75em;
+    border-radius: 12px;
+    white-space: nowrap;
+    z-index: 2;
+}
+
+.image-wrap {
+    position: relative;
+    width: 48px;
+    height: 48px;
+}
+
+.alert-img {
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+}
+
+.alert-data {
+    display: flex;
+    align-items: baseline;
+    max-width: 500px;
+}
+
+.alert-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.alert-user {
+    font-weight: 700;
+    margin-right: 4px;
+}
+
+.alert-msg {
+    margin-top: 4px;
+    font-style: italic;
+    color: #eee;
+}

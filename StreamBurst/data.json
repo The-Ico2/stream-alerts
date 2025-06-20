@@ -1,0 +1,23 @@
+{
+  "widgetDuration": 5,
+  "gradientTransparency": 0.75,
+  "fontFamily": "Archivo",
+  "fontSize": 20,
+  "includeFollowers": false,
+  "includeSubs": true,
+  "includeCheers": false,
+  "minCheer": 1,
+  "includeTips": true,
+  "minTip": 1,
+  "includeHosts": false,
+  "minHost": 1,
+  "includeRaids": false,
+  "minRaid": 1,
+  "includeRedemptions": false,
+  "platform": "YouTube",
+  "pRGB": "#FF0000",
+  "sRGB": "#CC0000",
+  "includeSuperchats": true,
+  "includeSponsors": true,
+  "minSuperchat": 1
+}
